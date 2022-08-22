@@ -1,0 +1,21 @@
+1-ousides(id,link,title,slug,image_url,type[vidoe,article,newspaper])->[admin]
+2-reports(id,title,body,slug,image_url)
+3-tweets(id,body,image_url,likes,commetns,user_id)
+4-comments(id,body,image_url,user_id,tweet_id)
+5-likes(user_id,tweet_id)
+6-favorites(user_id,report_id)
+7-users(id,name,slug,email,phone_number,phone_verfication_at,about,image_url,password,marital_status,
+type[مستخدم,عضو مجلس,أدمن, جمعية ,نادي])
+8-الامة < = دوائر< = اعضاء
+9-التعاوني < = المحاافظات < = جمعيات (كمستخدين) < = بامكانهم اضافة خبر تابع للجمعيىة
+10-الاندية< = النوادي (كمتسخدمين) < = بامكانهم اضافة خبر تابع للنادي 
+11-البلدي < = الاعضاء 
+12-النقابات
+13-الطلاب
+14-counciles(id,name,slug,parent_id)
+15-circels =>(id,name,slug , councile_id = 1 )
+16-provinces(id,name,slug ,councile_id  = 2)
+17-clubs(id,name,slug ,councile_id = 3)
+x86T6Db"\[FWmR_
+
+

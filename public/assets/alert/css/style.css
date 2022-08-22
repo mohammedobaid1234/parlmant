@@ -1,0 +1,26 @@
+.container{
+    border:0px solid darkgrey;
+    border-radius:3px;
+    padding:5px;
+    width: 30%;
+    margin: 0 auto;
+}
+/* Popup box */
+#popup{
+    position: absolute;
+    width: auto;
+    height: 30px;
+    background: #fe6b1f;
+    display: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
+#copy{
+    background: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 25px;
+    border: 0;
+}
